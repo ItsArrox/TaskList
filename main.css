@@ -1,6 +1,5 @@
 :root {
-    --black: #black;
-    --darker:#black;
+    --black: #0f0f0f;
     --orange:#dd730d;
     --gray: #6B7280;
     --light:#ffffff;
@@ -22,7 +21,7 @@ body{
 }
 
 header {
-    padding: 2rem 1 rem;
+    padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -48,11 +47,11 @@ input, button {
 
 #new-task-input{
     flex: 1 1 0%;
-    background-color: var(--black);
+    background-color: var(--gray);
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;
-    color: var(--white);
+    color: var(--light);
     font-size: 1.25rem;
 }
 
